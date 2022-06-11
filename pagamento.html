@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento</title>
+    <link rel="stylesheet" href="pagamento.css">
+</head>
+<body>
+
+    <h1 style="color: white;">RestauNove</h1>
+    <form action="">
+        <fieldset class="grupo">
+        <div class="campo">
+            <label for="nome">Nome</label>
+            <input type="text" name="Nome" id="nome" required>
+        </div>
+        <br>
+        <div>
+            <label for="sobrenome">Endereço</label>
+            <input type="text" name="sobrenome" id="sobrenome" required>
+        </div>
+        <br>
+        <div id="linha">
+            <label for="sobrenome">Forma de pagamento</label>
+            <select name="pagar" id="pagar" required>
+                <option selected disabled value="" required>Selecione</option>
+                <option>Débito</option>
+                <option>Crédito</option>
+                <option>Ticket</option>
+                <option>Dinheiro</option>
+                <option>Pix</option>
+            </select>
+
+            <button. type="submit"><a href="qrcode.html" style="color: white;">Escanear QR Code</a></button.>
+        </div>
+
+<br>
+
+<button type="submit" id="botao">Concluído</button>
+</fieldset>
+
+    </form>
+
+
+</body>
+</html>

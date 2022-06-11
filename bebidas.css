@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background: linear-gradient(rgba(53, 53, 53), rgba(13, 3, 54, 0.521))
+}
+
+#cardapio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+#item img{
+    padding: 5px;
+    width: 270px;
+    height: 220px;
+    border-radius: 50px;
+}
+
+#item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.76);
+    margin: 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+h1{
+    display: inline-block;
+    padding: 20px;
+    background-color: rgba(174, 187, 0, 0.377);
+}
+
+#item p{
+    font-size: 14px;
+}
+
+#item button{
+    background-color: rgb(235, 44, 44);
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#item button:hover{
+    background-color: rgb(10, 65, 3);
+    transition: background .8s;
+}
+
+#menu ul{
+    list-style: none;
+    background-color: rgb(53, 53, 53);
+}
+
+
+#menu ul li{
+    display: inline;
+    float: center;
+}
+
+#menu ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    transition: background .8s;
+}
+
+#menu ul li a:hover{
+    background-color: rgb(16, 168, 168);
+}
+
+button:hover{
+    background-color: rgb(0, 225, 255);
+    box-shadow: inset 2px 2px 2px black;
+    text-shadow: none;
+}
